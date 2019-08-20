@@ -1,0 +1,93 @@
+.meizu-header>:first-child::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.meizu-header-logo{
+	width:125px;height:80px;
+	float: left;
+	padding:28px 0;
+	box-sizing:border-box;
+	margin-left:50px; 
+}
+#Logo{
+	height: 24px;
+	width:125px;
+}
+ .meizu-header-car{
+	width:40px;height: 40px;
+	display: block;
+	background: rgba(0,0,0,0) url(../img/meizu_car.png) no-repeat center center;
+	position: relative;
+}
+.meizu-header-car em{
+	display: block;
+	
+	position: absolute;
+	top:-2px;right:-3px;
+	border-radius: 50%;
+	background: #c00;
+	color:#fff;
+	text-align:center;
+	font-size: 12px;
+    font-weight: 400;
+		font-style: normal;
+		padding:0 4px;
+}
+.meizu-header-link .meizu-header-user{
+	width:40px;height: 40px;
+	display: block;
+	background:  rgba(0,0,0,0) url(../img/meizu_user.png) no-repeat center center;
+}
+.meizu-header-link{
+	height:80px;
+	float: right;
+	list-style-type:none;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right:70px;
+}
+.meizu-header-link-product{
+	float: left;
+	display:list-item;
+	padding:30px 0px 30px 40px;
+}
+.meizu-header-link .meizu-header-link-shou{
+	border:1px solid #999;
+	border-radius: 20px;
+	padding:4px;
+}
+.meizu-header-link-shou input{
+	width:135px;
+	border:0px;
+	outline:0px;
+	height: 20px;
+	margin-left:15px;	
+}
+.header-link-nav{
+	position: absolute;
+	width:1240px;
+	margin-left:50px; 
+	display: flex;
+	justify-content:center;
+	list-style: none;
+	font-size:12px;
+	visibility:hidden; 
+}
+.show{
+	visibility:visible; 
+}
+.header-link-nav li{
+	width:11.5%;
+	text-align:center; 
+	opacity: 0.7;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.header-link-nav li:hover{
+	opacity: 1;
+}
+
+
